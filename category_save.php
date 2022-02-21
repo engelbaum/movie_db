@@ -6,5 +6,5 @@ if (!isset($_POST['nom']) or empty($_POST['nom'])) {
     echo 'le nom est obligé';
     exit;
 }
-$name=$_POST['nom'];
-$db->query ('insert into category (name) values ("'.$name.'")');
+$name = $_POST['nom'];
+$db->query('insert into category (name) values ("' . $name . '")');
